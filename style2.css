@@ -14,5 +14,209 @@ nav li{
 }
 nav a{
     text-decoration: none;
-    color: black;
+    color: antiquewhite;
+}
+body{
+    background-color: #233b2c;
+    color: antiquewhite;
+}
+
+/* frame */
+.frame{
+    background-color: rgb(205, 192, 175);
+    position: relative;
+    overflow: hidden;
+    box-sizing: content-box;
+    margin: auto;
+    height: 778px;
+    width: 799px;
+    border: 10px solid antiquewhite ;
+}
+
+/* boxes */
+.silvertop{
+    position: absolute;
+    border-top: 150px solid #a3adb5;
+    border-bottom: 150px solid transparent; 
+    border-left: 150px solid #a3adb5;
+    border-right: 150px solid transparent;
+    animation: silvertop 5s infinite; 
+}
+@keyframes silvertop {
+    from{
+        border-top: 50px solid #a3adb5;
+        border-bottom: 50px solid transparent; 
+        border-left: 50px solid #a3adb5;
+        border-right: 50px solid transparent; 
+    }
+    to{
+        border-top: 150px solid #a3adb5;
+        border-bottom: 150px solid transparent; 
+        border-left: 150px solid #a3adb5;
+        border-right: 150px solid transparent; 
+    }
+}
+.whitetop{
+    position: absolute;
+    left: 300px;
+    bottom: 250px;
+    border-top: 375px solid transparent;
+    border-bottom: 375px solid transparent;
+    border-left: 375px solid #fff7f2;
+    border-right: 375px solid transparent;
+    animation: whitetop 5s infinite;
+}
+@keyframes whitetop {
+    from{
+        border-top: 200px solid transparent;
+        border-bottom: 200px solid transparent;
+        border-left: 200px solid #fff7f2;
+        border-right: 200px solid transparent;
+    }
+    to{
+        border-top: 375px solid transparent;
+        border-bottom: 375px solid transparent;
+        border-left: 375px solid #fff7f2;
+        border-right: 375px solid transparent;
+    }
+}
+.greytop{
+    position: absolute;
+    right: 0px;
+    border-top: 150px solid #726b6d;
+    border-bottom: 150px solid transparent;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    animation: greytop 5s infinite;
+}
+@keyframes greytop {
+    from{
+        border-top: 50px solid #726b6d;
+        border-bottom: 50px solid transparent;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+    }
+    to{
+        border-top: 150px solid #726b6d;
+        border-bottom: 150px solid transparent;
+        border-left: 150px solid transparent;
+        border-right: 150px solid transparent;
+    }
+}
+.blacktriangle{
+    position: absolute;
+    right: 475px;
+    top: -100px;
+    border-top: 450px solid transparent;
+    border-bottom: 450px solid transparent; 
+    border-left: 450px solid transparent;
+    border-right: 450px solid #1e191b; 
+    animation: blackt 5s infinite;
+}
+@keyframes blackt {
+    from{
+        border-top: 250px solid transparent;
+        border-bottom: 250px solid transparent; 
+        border-left: 250px solid transparent;
+        border-right: 250px solid #1e191b; 
+    }
+    to{
+        border-top: 450px solid transparent;
+        border-bottom: 450px solid transparent; 
+        border-left: 450px solid transparent;
+        border-right: 450px solid #1e191b; 
+    }
+}
+.red{
+    position: absolute;
+    right: 0px;
+    border-top: 475px solid transparent;
+    border-bottom: 475px solid transparent; 
+    border-left: 475px solid transparent;
+    border-right: 475px solid #a8210f;
+    animation: redhearts 5s infinite;
+}
+@keyframes redhearts {
+    from{
+        border-top: 200px solid transparent;
+        border-bottom: 200px solid transparent; 
+        border-left: 200px solid transparent;
+        border-right: 200px solid #a8210f;
+    }
+    to{
+        border-top: 475px solid transparent;
+        border-bottom: 475px solid transparent; 
+        border-left: 475px solid transparent;
+        border-right: 475px solid #a8210f;
+    }
+}
+.yellow{
+    position: absolute;
+    bottom: 0px;
+    border-top: 155px solid transparent;
+    border-bottom: 155px solid transparent; 
+    border-left: 155px solid #d4a842;
+    border-right: 155px solid transparent; 
+    animation: yellowhearts 5s infinite;
+}
+@keyframes yellowhearts {
+    from{
+        border-top: 75px solid transparent;
+        border-bottom: 75px solid transparent; 
+        border-left: 75px solid #d4a842;
+        border-right: 75px solid transparent; 
+    }
+    to{
+        border-top: 155px solid transparent;
+        border-bottom: 155px solid transparent; 
+        border-left: 155px solid #d4a842;
+        border-right: 155px solid transparent;
+    }
+}
+.whitebottom{
+    position: absolute;
+    bottom: 0px;
+    border-top: 155px solid transparent;
+    border-bottom: 155px solid #fff7f2; 
+    border-left: 155px solid transparent;
+    border-right: 155px solid transparent;
+    animation: whitehearts 5s infinite;
+}
+@keyframes whitehearts {
+    from{
+        border-top: 75px solid transparent;
+        border-bottom: 75px solid #fff7f2; 
+        border-left: 75px solid transparent;
+        border-right: 75px solid transparent;
+    }
+    to{
+        border-top: 155px solid transparent;
+        border-bottom: 155px solid #fff7f2; 
+        border-left: 155px solid transparent;
+        border-right: 155px solid transparent;
+    }
+}
+.silverbottom{
+    position: absolute;
+    left: 300px;
+    top: 450px;
+    border-top: 400px solid transparent;
+    border-bottom: 400px solid #a3adb5;
+    border-left: 400px solid #a3adb5;
+    border-right: 400px solid transparent;
+    animation: silversoul 5s infinite;
+}
+@keyframes silversoul {
+    from{
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid #a3adb5;
+        border-left: 10px solid #a3adb5;
+        border-right: 10px solid transparent;
+    }
+    to{
+        border-top: 400px solid transparent;
+        border-bottom: 400px solid #a3adb5;
+        border-left: 400px solid #a3adb5;
+        border-right: 400px solid transparent;
+    }
 }
